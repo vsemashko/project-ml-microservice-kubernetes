@@ -18,7 +18,9 @@ on [the data source site](https://www.kaggle.com/c/boston-housing). T
 
 1. Standalone:  `python app.py`
 2. Run in Docker:  `./run_docker.sh`
-3. Run in Kubernetes:  `./run_kubernetes.sh`
+3. Upload docker image into repository: `./upload_docker.sh`
+4. Run in Kubernetes:  `./run_kubernetes.sh`
+5. Example of predictions request: `./make_prediction.sh`
 
 ### Kubernetes Steps
 
