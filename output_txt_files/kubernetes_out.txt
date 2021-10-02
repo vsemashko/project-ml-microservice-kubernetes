@@ -1,7 +1,17 @@
+(project-ml-microservice-kubernetes) vsemashko project-ml-microservice-kubernetes % ./run_kubernetes.sh
 deployment.apps/udacity-project-ml created
 NAME                                  READY   STATUS              RESTARTS   AGE
-udacity-project-ml-676cb5f874-zhskt   0/1     ContainerCreating   0          1s
-pod/udacity-project-ml-676cb5f874-zhskt condition met
+udacity-project-ml-676cb5f874-nclgm   0/1     ContainerCreating   0          1s
+pod/udacity-project-ml-676cb5f874-nclgm condition met
 Forwarding from 127.0.0.1:8055 -> 80
 Forwarding from [::1]:8055 -> 80
 Handling connection for 8055
+
+
+(project-ml-microservice-kubernetes) vsemashko project-ml-microservice-kubernetes % ./make_prediction.sh
+Port: 8055
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
