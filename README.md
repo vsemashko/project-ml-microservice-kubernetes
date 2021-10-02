@@ -12,7 +12,9 @@ on [the data source site](https://www.kaggle.com/c/boston-housing). T
 * You'll need a python of version 3.7.3
 * Create a virtualenv and activate it
 * Run `make install` to install the necessary dependencies
-* Run `make all` to install all dependencies and run lint
+* Run `make all` to install all dependencies and run lint. 
+In order to run lint locally you'll need a [hadlolint](https://github.com/hadolint/hadolint) installed.
+E.g. for mac you can use `brew install hadolint`
 
 ### Running `app.py`
 
